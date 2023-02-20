@@ -9,8 +9,8 @@ public class ScientificCalculator {
     public double getValueFromMemory() {
         return(holdValue);
     }
-    public double exp(double e, double x) {
-        return(Math.pow(e, x));
+    public double exp(double x) {
+        return(Math.pow(Math.E, x));
     }
     public double log(double x) {
         return(Math.log(x));
